@@ -17,7 +17,7 @@ print("---------------------------------------------------")
 -- Imports
 --=========================================================
 
-local Trajectory = require( "dmc_library.dmc_trajectory" )
+local Trajectory = require( "dmc_corona.dmc_trajectory" )
 
 
 --====================================================================--
