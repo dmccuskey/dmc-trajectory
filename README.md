@@ -122,6 +122,8 @@ The [direction example](examples/README.md) uses it to point each projectile bef
 | `Trajectory.x_Given_vx_t( Vx, t )` | the distance across after `t` |
 | `Trajectory.y_Given_vy_t( Vy, t )` | the height after `t` |
 
+The physics behind them: [Trajectories](http://hyperphysics.phy-astr.gsu.edu/hbase/traj.html) (HyperPhysics), [Projectile motion](https://en.wikipedia.org/wiki/Projectile_motion) (Wikipedia), and [Projectile Motion](https://web.archive.org/web/20080419171140/http://library.thinkquest.org/10139/small/proj1.html) (ThinkQuest, on the Wayback Machine).
+
 ## Known Issues
 
 - A move can't be stopped, paused or changed once started, except by removing the object ([#1](https://github.com/dmccuskey/dmc-trajectory/issues/1)).
